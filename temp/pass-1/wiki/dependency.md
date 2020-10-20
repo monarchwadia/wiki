@@ -1,11 +1,11 @@
 ---
-title: [Passage](wiki/dependency.md)
+title: [Passage]()
 ---
 
-## What is a [Passage](wiki/dependency.md)?
+## What is a [Passage]()?
 
-Similar to a [Passage](wiki/dependency.md) in writing, a [Passage](wiki/dependency.md) of code is a portion or section of code.
+Similar to a [Passage]() in writing, a [Passage]() of code is a portion or section of code.
 
-[Attitude](wiki/inspiration/attitude.md) can kill
+[Attitude](../inspiration/attitude.md) can kill
 
 ##

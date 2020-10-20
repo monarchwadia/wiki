@@ -23,14 +23,14 @@ class LinkManager {
     }
   }
 
-  enrich(_contents) {
+  enrich(originalPath) {
+    let contents = getContents(originalPath);
     // create a lowercase "map" of the contents on which to do
     // pattern matching.
-    let contents = _contents;
     let lcContents = contents.toLowerCase();
 
     // for each link, do pattern matching.
-    Object.entries(this.links).forEach(([term, originalPath]) => {
+    Object.entries(this.links).forEach(([term, linkOriginalPath]) => {
       const lcTerm = term.toLowerCase();
       // iterate through each character of the content
       for (let index = 0; index < lcContents.length - lcTerm.length; index++) {
@@ -40,7 +40,10 @@ class LinkManager {
         // a match was found.
         if (lcTerm === lcPassage) {
           // modify the original content with the original term
-          const newCharacterSequence = `[${term}](${originalPath})`;
+          const newCharacterSequence = `[${term}](${path.relative(
+            originalPath,
+            linkOriginalPath
+          )})`;
 
           const left = contents.slice(0, index);
           const right = contents.slice(endIndex, contents.length);
@@ -67,10 +70,9 @@ function main() {
 
   walkDir("wiki", (originalPath) => {
     console.log("Reading original path", originalPath);
-    const contents = getContents(originalPath);
 
     // TODO: Fix enriching
-    const enrichedContents = contents ? linkManager.enrich(contents) : "";
+    const enrichedContents = linkManager.enrich(originalPath);
     // const enrichedContents = contents;
 
     writeFile(originalPath, enrichedContents);

@@ -1,10 +1,10 @@
 ---
-title: [Attitude](wiki/inspiration/attitude.md)
+title: [Attitude]()
 ---
 
-[Original Quora question](https://www.quora.com/What-are-some-of-the-best-[Passage](wiki/dependency.md)s-from-Harry-Potter-novels-Even-if-they-turn-out-to-be-long-add-the-full-[Passage](wiki/dependency.md)-and-not-only-the-theme)
+[Original Quora question](https://www.quora.com/What-are-some-of-the-best-[Passage](../../dependency.md)s-from-Harry-Potter-novels-Even-if-they-turn-out-to-be-long-add-the-full-[Passage](../../dependency.md)-and-not-only-the-theme)
 
-**What are some of the best [Passage](wiki/dependency.md)s from Harry Potter novels? Even if they turn out to be long, add the full [Passage](wiki/dependency.md) and not only the theme.**
+**What are some of the best [Passage](../../dependency.md)s from Harry Potter novels? Even if they turn out to be long, add the full [Passage](../../dependency.md) and not only the theme.**
 
 The best answer was below, by a user [Tejas Savalia](https://www.quora.com/profile/Tejas-Savalia). His answer was especially poignant.
 
