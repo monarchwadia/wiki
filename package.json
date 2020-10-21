@@ -5,10 +5,13 @@
   "author": "Monarch Wadia <monarch@mintbean.io>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js"
+    "start": "node -r dotenv/config index.js"
   },
   "dependencies": {
     "front-matter": "^4.0.2",
     "fs-extra": "^9.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
   }
 }

@@ -72,7 +72,10 @@ function main() {
     console.log("Reading original path", originalPath);
 
     // TODO: Fix enriching
-    const enrichedContents = linkManager.enrich(originalPath);
+    const enrichedContents =
+      process.env.FF_ENABLE_LINKER === "true"
+        ? linkManager.enrich(originalPath)
+        : fs.readFileSync(originalPath);
     // const enrichedContents = contents;
 
     writeFile(originalPath, enrichedContents);

@@ -1,0 +1,2 @@
+1. Fix linking logic. The current relative pathfinding algorithm isn't working too well on github.
+2. Add state machine to linking logic, to avoid linking within links.
