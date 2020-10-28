@@ -19,7 +19,7 @@ The good salesperson knows that she can lose a prospective customer at any step 
 
 Therefore, the good salesperson tries to maximize the number of sales by doing as many cold calls as she can (or emails, or LinkedIn messages, etc.). This is called "filling the sales funnel".
 
-But this is not the only way to maximize sales. Sales (and repeat buyers) can also be increased by optimizing each step of the process. This way, she can improve the number of customers that "convert" from one step to the next. For example, by working on her PowerPoint deck, the salesperson can make more customers pass from the "Meetings" step to the "Proposals" step. By offering discounts or improving the wording on her proposal documents, she can help more customers move from "Proposals" to "Sales". This is called "improving conversion rates".
+But this is not the only way to maximize sales. Sales (and repeat buyers) can also be increased by optimizing each step of the process. This way, she can improve the number of customers that "convert" from one step to the next. This is called "improving conversion rates". For example, by working on her PowerPoint deck, the salesperson can make more customers pass from the "Meetings" step to the "Proposals" step. By offering discounts or improving the wording on her proposal documents, she can help more customers move from "Proposals" to "Sales".
 
 ## The job application funnel (JAF)
 
@@ -35,9 +35,11 @@ When applying to software development jobs, the funnel still applies. Here are t
 
 We'll call this the "Job Application Funnel", or "JAF" for short.
 
-At each step, the jobseeker has a chance of losing the "sale". For example, if his verbal communication is sub-par, he might not have a very high conversion rate at the Phone Interview step. If his technical skills are not very strong, he might not pass the "Technical test" or "In-person test" very often, even if he is landing them all the time.
+At each step, the jobseeker has a chance of being rejected. For example, if his verbal communication is sub-par, he might not have a very high conversion rate at the Phone Interview step. If his technical skills are not very strong, he might not pass the "Technical test" or "In-person test" very often, even if he is landing them all the time.
 
 ## How to pass each step
+
+**Key realization: Passing each step is a separate and mostly independent challenge.**
 
 At each step, the company looks for very different attributes from the jobseeker. Here is a breakdown:
 
