@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node -r dotenv/config index.js",
-    "ast": "node ast-traverser"
+    "ast": "node src/index.js"
   },
   "dependencies": {
     "front-matter": "^4.0.2",
@@ -16,7 +16,10 @@
     "rehype-stringify": "^8.0.0",
     "remark-parse": "^9.0.0",
     "remark-rehype": "^8.0.0",
+    "to-vfile": "^6.1.0",
     "unified": "^9.2.0",
+    "vfile-find-down": "^5.0.1",
+    "vfile-matter": "^1.0.2",
     "vfile-reporter": "^6.0.1"
   },
   "devDependencies": {
