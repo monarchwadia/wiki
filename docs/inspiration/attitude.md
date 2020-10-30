@@ -38,4 +38,4 @@ Cheers!
 
 When change (the unstoppable force) meets ego (the immovable object), some emotions become counterproductive, causing difficulty and dis-ease. When such a thing happens, we have nothing to fear but fear itself.
 
-The
+Btw, the following should link to the funnel.
