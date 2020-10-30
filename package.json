@@ -12,6 +12,7 @@
   "dependencies": {
     "front-matter": "^4.0.2",
     "fs-extra": "^9.0.1",
+    "js-yaml": "^3.14.0",
     "rehype-document": "^5.1.0",
     "rehype-format": "^3.1.0",
     "rehype-stringify": "^8.0.0",
