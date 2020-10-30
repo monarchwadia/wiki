@@ -3,31 +3,35 @@ title: The Coding Job Application Funnel
 aliases: funnel, job application funnel, job funnel, jaf
 ---
 
-**Key realization: The dev job application process is the same as the sales [funnel](/wiki/careers/funnel.md).**
+**Key realization: The dev job application process is the same as the sales funnel.**
 
-In sales, there is a concept called the sales [funnel](/wiki/careers/funnel.md) that looks like this:
+In sales, there is a concept called the sales funnel that looks like this:
 
-     \         Cold emails      /
-      \         Meetings       /
-       \        Proposals     /
-        \         Sales      /
-         \    Repeat Buyer  /
+```
+ \         Cold emails      /
+  \         Meetings       /
+   \        Proposals     /
+    \         Sales      /
+     \    Repeat Buyer  /
+```
 
 The good salesperson knows that she can lose a prospective customer at any step in this sales process. There is a percentage probability that a potential sale will fall through at any time.
 
-Therefore, the good salesperson tries to maximize the number of sales by doing as many cold calls as she can (or emails, or LinkedIn messages, etc.). This is called "filling the sales [funnel](/wiki/careers/funnel.md)".
+Therefore, the good salesperson tries to maximize the number of sales by doing as many cold calls as she can (or emails, or LinkedIn messages, etc.). This is called "filling the sales funnel".
 
 But this is not the only way to maximize sales. Sales (and repeat buyers) can also be increased by optimizing each step of the process. This way, she can improve the number of customers that "convert" from one step to the next. This is called "improving conversion rates". For example, by working on her PowerPoint deck, the salesperson can make more customers pass from the "Meetings" step to the "Proposals" step. By offering discounts or improving the wording on her proposal documents, she can help more customers move from "Proposals" to "Sales".
 
-## The job application [funnel](/wiki/careers/funnel.md) (JAF)
+## The job application funnel (JAF)
 
-When applying to software development jobs, the [funnel](/wiki/careers/funnel.md) still applies. Here are the new steps:
+When applying to software development jobs, the funnel still applies. Here are the new steps:
 
-     \      Job applications     /
-      \     Phone interviews    /
-       \    Technical tests    /
-        \   In-person tests   /
-         \    Job offers     /
+```
+ \      Job applications     /
+  \     Phone interviews    /
+   \    Technical tests    /
+    \   In-person tests   /
+     \    Job offers     /
+```
 
 We'll call this the "Job Application Funnel", or "JAF" for short.
 
@@ -47,4 +51,4 @@ At each step, the company looks for very different attributes from the jobseeker
 
 **In-person tests** - This is very much like the `Technical tests` step, except because this is in-person, you will have to look and sound the part. This step requires solid technical skills and medium-strength communication skills. The interviewer will be looking for soft skills as well as hard skills. Dressing appropriately, practicing personal hygiene, and working on your verbal skills will help. Doing [Mintbean](https://mintbean.io) interviews will help tremendously, since I have designed these hackathons to be about as close to "real world" scenarios as you will get without having a real job. Developing a hobby around coding will help a lot, too.
 
-**Job offers** - Your work isn't quite done. After you get the job offer, you must *keep* the job. I personally recommend working at least 60 to 80 hours per week in your probation period to make sure you hit the mark. This step is a process of optics and teamwork skills, in addition to technical skills.
+**Job offers** - Your work isn't quite done. After you get the job offer, you must _keep_ the job. I personally recommend working at least 60 to 80 hours per week in your probation period to make sure you hit the mark. This step is a process of optics and teamwork skills, in addition to technical skills.

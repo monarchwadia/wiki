@@ -5,6 +5,10 @@ const replaceString = require("./utils/mdast-util-replace-string");
 const yaml = require("js-yaml");
 const fse = require("fs-extra");
 const path = require("path");
+const remark2rehype = require("remark-rehype");
+const html = require("rehype-stringify");
+const doc = require("rehype-document");
+var rename = require("vfile-rename");
 
 const rootUrl = "wiki";
 const distDirName = "docs";
@@ -103,7 +107,14 @@ const decorator = InternalLinkDecorator();
 const processor = remark()
   .use(remarkFrontmatter)
   .use(decorator.register)
-  .use(decorator.link);
+  .use(decorator.link)
+  .use(remark2rehype)
+  .use(doc)
+  .use(html)
+  .use(() => (tree, file) => {
+    // rename(file, ".html")
+    file.extname = ".html";
+  });
 
 // Process the file
 engine(

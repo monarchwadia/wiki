@@ -12,19 +12,19 @@ Here are some things I do:
 
 **Business.**
 
-*   My team and I build software for companies.
-*   We help companies hire developers.
-*   We help companies market to developers.
+- My team and I build software for companies.
+- We help companies hire developers.
+- We help companies market to developers.
 
 **Technology.**
 
-*   I design systems.
-*   I write JavaScript and Java.
-*   I am a full-stack developer.
+- I design systems.
+- I write JavaScript and Java.
+- I am a full-stack developer.
 
 **Education.**
 
-*   I organize hackathons for students.
-*   I organize workshops and communities.
-*   I mentor new developers.
-*   I mentor early-stage startups.
+- I organize hackathons for students.
+- I organize workshops and communities.
+- I mentor new developers.
+- I mentor early-stage startups.

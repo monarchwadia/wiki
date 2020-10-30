@@ -2,9 +2,9 @@
 title: Passage
 ---
 
-## What is a [passage](/wiki/dependency.md)?
+## What is a passage?
 
-Similar to a [passage](/wiki/dependency.md) in writing, a [passage](/wiki/dependency.md) of code is a portion or section of code.
+Similar to a passage in writing, a passage of code is a portion or section of code.
 
 Attitude can kill
 

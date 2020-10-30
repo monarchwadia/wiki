@@ -983,6 +983,13 @@ vfile-message@^2.0.0:
     "@types/unist" "^2.0.0"
     unist-util-stringify-position "^2.0.0"
 
+vfile-rename@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/vfile-rename/-/vfile-rename-1.0.2.tgz#4cdf466b476f062bbd4547042e1d79ae2e5f0ab0"
+  integrity sha512-cbIC0Nbpr5b22Dr5vQZx5quOTyCLyE5cIogEbwb9thLoQhTrTwq4+IAEY3bEXnOSk56WoLCO7xlNwkUQ8m5epw==
+  dependencies:
+    vfile "^4.0.0"
+
 vfile-reporter@^6.0.0, vfile-reporter@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/vfile-reporter/-/vfile-reporter-6.0.1.tgz#45d4dc11df2e312196ea2ceb95e42a67fc8ce814"

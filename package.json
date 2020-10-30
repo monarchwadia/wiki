@@ -25,6 +25,7 @@
     "unified-engine": "^8.0.0",
     "vfile-find-down": "^5.0.1",
     "vfile-matter": "^1.0.2",
+    "vfile-rename": "^1.0.2",
     "vfile-reporter": "^6.0.1"
   },
   "devDependencies": {
