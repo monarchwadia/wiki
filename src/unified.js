@@ -6,7 +6,7 @@ const yaml = require("js-yaml");
 const fse = require("fs-extra");
 const path = require("path");
 
-const distDirName = "dist";
+const distDirName = "docs";
 const srcDir = path.join(__dirname, "../wiki");
 const distDir = path.join(__dirname, "../", distDirName);
 
