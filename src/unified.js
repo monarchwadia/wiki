@@ -93,7 +93,9 @@ const InternalLinkDecorator = () => {
           doReplace(
             tree,
             alias,
-            path.join("/", rootUrl, path.relative(distDirName, urlDestination))
+            path
+              .join("/", rootUrl, path.relative(distDirName, urlDestination))
+              .replace(/\.md$/, ".html")
           );
         });
       };
