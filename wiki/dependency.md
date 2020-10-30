@@ -1,5 +1,6 @@
 ---
 title: Passage
+aliases: dependency
 ---
 
 ## What is a passage?
