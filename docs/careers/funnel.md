@@ -3,9 +3,9 @@ title: The Coding Job Application Funnel
 aliases: funnel, job application funnel, job funnel, jaf
 ---
 
-**Key realization: The dev job application process is the same as the sales [funnel](/careers/funnel.md).**
+**Key realization: The dev job application process is the same as the sales [funnel](/wiki/careers/funnel.md).**
 
-In sales, there is a concept called the sales [funnel](/careers/funnel.md) that looks like this:
+In sales, there is a concept called the sales [funnel](/wiki/careers/funnel.md) that looks like this:
 
      \         Cold emails      /
       \         Meetings       /
@@ -15,13 +15,13 @@ In sales, there is a concept called the sales [funnel](/careers/funnel.md) that 
 
 The good salesperson knows that she can lose a prospective customer at any step in this sales process. There is a percentage probability that a potential sale will fall through at any time.
 
-Therefore, the good salesperson tries to maximize the number of sales by doing as many cold calls as she can (or emails, or LinkedIn messages, etc.). This is called "filling the sales [funnel](/careers/funnel.md)".
+Therefore, the good salesperson tries to maximize the number of sales by doing as many cold calls as she can (or emails, or LinkedIn messages, etc.). This is called "filling the sales [funnel](/wiki/careers/funnel.md)".
 
 But this is not the only way to maximize sales. Sales (and repeat buyers) can also be increased by optimizing each step of the process. This way, she can improve the number of customers that "convert" from one step to the next. This is called "improving conversion rates". For example, by working on her PowerPoint deck, the salesperson can make more customers pass from the "Meetings" step to the "Proposals" step. By offering discounts or improving the wording on her proposal documents, she can help more customers move from "Proposals" to "Sales".
 
-## The job application [funnel](/careers/funnel.md) (JAF)
+## The job application [funnel](/wiki/careers/funnel.md) (JAF)
 
-When applying to software development jobs, the [funnel](/careers/funnel.md) still applies. Here are the new steps:
+When applying to software development jobs, the [funnel](/wiki/careers/funnel.md) still applies. Here are the new steps:
 
      \      Job applications     /
       \     Phone interviews    /

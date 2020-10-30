@@ -6,6 +6,7 @@ const yaml = require("js-yaml");
 const fse = require("fs-extra");
 const path = require("path");
 
+const rootUrl = "wiki";
 const distDirName = "docs";
 const srcDir = path.join(__dirname, "../wiki");
 const distDir = path.join(__dirname, "../", distDirName);
@@ -89,7 +90,7 @@ const InternalLinkDecorator = () => {
           doReplace(
             tree,
             alias,
-            path.join("/", path.relative(distDirName, urlDestination))
+            path.join("/", rootUrl, path.relative(distDirName, urlDestination))
           );
         });
       };
