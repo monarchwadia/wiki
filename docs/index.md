@@ -4,7 +4,7 @@ title: Wiki
 
 # Entries
 
-funnel
-attitude
-monarch-wadia
-dependency
+- funnel
+- attitude
+- monarch wadia
+- dependency
