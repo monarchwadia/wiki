@@ -72,9 +72,7 @@ function walk(node) {
 
 function link(options) {
   return function transformer(tree, file) {
-    if (file.history[0] === "wiki/team/monarch-wadia.md") {
-      walk(tree);
-    }
+    walk(tree);
   };
 }
 
