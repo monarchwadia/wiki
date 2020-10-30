@@ -6,8 +6,9 @@ const yaml = require("js-yaml");
 const fse = require("fs-extra");
 const path = require("path");
 
+const distDirName = "dist";
 const srcDir = path.join(__dirname, "../wiki");
-const distDir = path.join(__dirname, "../dist");
+const distDir = path.join(__dirname, "../", distDirName);
 
 // PHASE 1 - Prepare ========================================================================
 // Clean the directory and create the initial dist dir.
@@ -46,21 +47,51 @@ const doReplace = (tree, token, url) => {
 
 // This component registers all the aliases, then interpolates them with the proper output.
 const InternalLinkDecorator = () => {
-  const files = {};
+  const aliasRegistry = {};
 
   return {
     register: (options) => {
       return (tree, file) => {
         const yamlString = tree.children.find((x) => x.type === "yaml");
         const frontmatter = yaml.load(yamlString.value);
-        console.log(frontmatter, file);
+        console.log("FRONTMATTER", frontmatter, frontmatter.title);
+
+        const aliases = [frontmatter.title.toLowerCase()];
+        if (frontmatter.aliases) {
+          const aliasesTrimmed = frontmatter.aliases.trim();
+          aliasesTrimmed
+            .split(/\,\s?/)
+            .filter((x) => !!x)
+            .map((x) => x.toLowerCase())
+            .forEach((alias) => {
+              aliases.push(alias);
+            });
+        }
+
+        for (let i = 0; i < aliases.length; i++) {
+          const alias = aliases[i];
+          if (aliasRegistry[alias]) {
+            throw new Error(
+              `Alias [${alias}] was already declared. Check for double declarations. Note that declarations are case-insensitive.`
+            );
+          } else {
+            const urlDestination = file.history[file.history.length - 1];
+            aliasRegistry[alias] = urlDestination;
+          }
+        }
       };
     },
 
     link: (options) => {
       return (tree, file) => {
         // console.log("TREE", tree);
-        doReplace(tree, " a ", "https://www.youtube.com/watch?v=oHg5SJYRHA0");
+        Object.entries(aliasRegistry).forEach(([alias, urlDestination]) => {
+          doReplace(
+            tree,
+            alias,
+            path.join("/", path.relative(distDirName, urlDestination))
+          );
+        });
       };
     },
   };
