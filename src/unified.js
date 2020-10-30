@@ -8,7 +8,6 @@ const path = require("path");
 const remark2rehype = require("remark-rehype");
 const html = require("rehype-stringify");
 const doc = require("rehype-document");
-var rename = require("vfile-rename");
 
 const rootUrl = "wiki";
 const distDirName = "docs";
@@ -104,31 +103,46 @@ const InternalLinkDecorator = () => {
 
 // Set up the processor
 const decorator = InternalLinkDecorator();
-const processor = remark()
-  .use(remarkFrontmatter)
-  .use(decorator.register)
-  .use(decorator.link)
-  .use(remark2rehype)
-  .use(doc)
-  .use(html)
-  .use(() => (tree, file) => {
-    // rename(file, ".html")
-    file.extname = ".html";
-  });
 
 // Process the file
 engine(
   {
-    processor,
+    processor: remark().use(remarkFrontmatter).use(decorator.register),
     files: [distDir],
     extensions: ["md", "markdown", "mkd", "mkdn", "mkdown"],
     color: true,
     // treeOut: true,
     // out: true,
-    output: true,
+    output: false,
     // treeOut: true,
   },
   (error, data) => {
     if (error) throw error;
+    engine(
+      {
+        processor: remark()
+          .use(remarkFrontmatter)
+          .use(decorator.link)
+          .use(remark2rehype)
+          .use(doc)
+          .use(html)
+          .use(() => (tree, file) => {
+            // rename(file, ".html")
+            file.extname = ".html";
+          }),
+        files: [distDir],
+        extensions: ["md", "markdown", "mkd", "mkdn", "mkdown"],
+        color: true,
+        // treeOut: true,
+        // out: true,
+        output: true,
+        // treeOut: true,
+      },
+      (error, data) => {
+        if (error) throw error;
+      }
+    );
   }
 );
+
+// Process the file
